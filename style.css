@@ -29,36 +29,62 @@ html, body{
   display: inline-block;
 }
 
-/*.navbar .selected {
-  display: none;
-  position: absolute;
-  top: 0;
-}*/
-
-/*.navbar:hover .selected {
-  display: block;
-  padding: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}*/
-
 .navbar img {
-  height: ;
+  height: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
 }
 
-#TARARUASELECTED, #MATAIRANGISELECTED, #ORONGORONGOSELECTED, #PUKEATUASELECTED, #REMUTAKASELECTED, #PUKEARIKISELECTED {
+#TARARUASELECTED {
   display: none;
-  position: absolute;
-  top: 0;
 }
 
-#TARARUASELECTED:hover, #MATAIRANGISELECTED:hover, #ORONGORONGOSELECTED:hover, #PUKEATUASELECTED:hover, #REMUTAKASELECTED:hover, #PUKEARIKISELECTED:hover {
-  display: block !important;
-  padding: 20px;
-  margin-left: auto;
-  margin-right: auto;
+#TARARUA:hover #TARARUASELECTED {
+  display: block;
+}
+
+#MATAIRANGISELECTED {
+  display: none;
+}
+
+#MATAIRANGI:hover #MATAIRANGISELECTED {
+  display: block;
+}
+
+#ORONGORONGOSELECTED {
+  display: none;
+}
+
+#ORONGORONGO:hover #ORONGORONGOSELECTED {
+  display: block;
+}
+
+#PUKEATUASELECTED {
+  display: none;
+}
+
+#PUKEATUA:hover #PUKEATUASELECTED {
+  display: block;
+}
+
+#REMUTAKASELECTED {
+  display: none;
+}
+
+#REMUTAKA:hover #REMUTAKASELECTED {
+  display: block;
+}
+
+#PUKEARIKISELECTED {
+  display: none;
+}
+
+#PUKEARIKI:hover #PUKEARIKISELECTED {
+  display: block;
+}
+
+.stuffgoeshere {
+  height: 100%;
 }
