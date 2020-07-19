@@ -1,44 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
   <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Information about the HVHS houses">
-    <meta name="author" content="Josh Belcher">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="John Doe">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Sen:wght@700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&family=Sen:wght@700&display=swap">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <link rel="icon" href="images/favicon.png">
+    <title>HVHS Houses</title>
   </head>
   <body>
-    <div class="hero-image">
-      <div class="hero-text">
-        <a href="https://hvhs.school.nz">🠜 Back to HVHS</a>
-        <h1>HVHS Houses</h1>
-      </div>
+    <div class="title">
+      <h1>HVHS Houses</h1>
     </div>
-    <div class="nav w3-row">
-      <div class="w3-col s2 m2 l2">
-        <img src="images/tararua-logo.png" alt="tararua-logo" onclick="dropDown" class="dropdown">
-        <div id="tararua-dropdown" class="dropdown-content">
-          <h1>Tararua</h1>
-          <p>content about tararua</p>
-        </div>
+    <div class="navbar w3-row">
+      <div id="TARARUA" class="w3-col s2 m2 l2">
+        <a href="tararua.html">
+          <img src="images/tararua-logo.png" alt="tararua">
+          <img id="TARARUASELECTED" class="selected" src="images/tararua-logo-selected.png" alt="tararua-selected">
+        </a>
       </div>
-      <div class="w3-col s2 m2 l2">
-        <img src="images/pukeatua-logo.png" alt="pukeatua-logo">
+      <div id="MATAIRANGI" class="w3-col s2 m2 l2">
+        <a href="matairangi.html">
+          <img src="images/matairangi-logo.png" alt="matairangi">
+          <img id="MATAIRANGISELECTED" class="selected" src="images/matairangi-logo-selected.png" alt="matairangi-selected">
+        </a>
       </div>
-      <div class="w3-col s2 m2 l2">
-        <img src="images/matairangi-logo.png" alt="matairangi-logo">
+      <div id="ORONGORONGO" class="w3-col s2 m2 l2">
+        <a href="orongorongo.html">
+          <img src="images/orongorongo-logo.png" alt="orongorongo">
+          <img id="ORONGORONGOSELECTED" class="selected" src="images/orongorongo-logo-selected.png" alt="orongorongo-selected">
+        </a>
       </div>
-      <div class="w3-col s2 m2 l2">
-        <img src="images/orongorongo-logo.png" alt="orongorongo-logo">
+      <div id="PUKEATUA" class="w3-col s2 m2 l2">
+        <a href="pukeatua.html">
+          <img src="images/pukeatua-logo.png" alt="pukeatua">
+          <img id="PUKEATUASELECTED" class="selected" src="images/pukeatua-logo-selected.png" alt="pukeatua-selected">
+        </a>
       </div>
-      <div class="w3-col s2 m2 l2">
-        <img src="images/remutaka-logo.png" alt="remutaka-logo">
+      <div id="REMUTAKA" class="w3-col s2 m2 l2">
+        <a href="remutaka.html">
+          <img src="images/remutaka-logo.png" alt="remutaka">
+          <img id="REMUTAKASELECTED" class="selected" src="images/remutaka-logo-selected.png" alt="remutaka-selected">
+        </a>
       </div>
-      <div class="w3-col s2 m2 l2">
-        <img src="images/pukeariki-logo.png" alt="pukeariki-logo">
+      <div id="PUKEARIKI" class="w3-col s2 m2 l2">
+        <a href="pukeariki.html">
+          <img src="images/pukeariki-logo.png" alt="pukeariki">
+          <img id="PUKEARIKISELECTED" class="selected" src="images/pukeariki-logo-selected.png" alt="pukeariki-selected">
+        </a>
       </div>
     </div>
   </body>
