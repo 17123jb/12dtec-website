@@ -37,53 +37,26 @@ html, body{
   padding: 20px;
 }
 
-#TARARUASELECTED {
-  display: none;
-}
+#TARARUASELECTED     {display: none;}
+#MATAIRANGISELECTED  {display: none;}
+#ORONGORONGOSELECTED {display: none;}
+#PUKEATUASELECTED    {display: none;}
+#REMUTAKASELECTED    {display: none;}
+#PUKEARIKISELECTED   {display: none;}
 
-#TARARUA:hover #TARARUASELECTED {
-  display: block;
-}
+#TARARUA:hover       #TARARUASELECTED     {display: block;}
+#MATAIRANGI:hover    #MATAIRANGISELECTED  {display: block;}
+#ORONGORONGO:hover   #ORONGORONGOSELECTED {display: block;}
+#PUKEATUA:hover      #PUKEATUASELECTED    {display: block;}
+#REMUTAKA:hover      #REMUTAKASELECTED    {display: block;}
+#PUKEARIKI:hover     #PUKEARIKISELECTED   {display: block;}
 
-#MATAIRANGISELECTED {
-  display: none;
-}
-
-#MATAIRANGI:hover #MATAIRANGISELECTED {
-  display: block;
-}
-
-#ORONGORONGOSELECTED {
-  display: none;
-}
-
-#ORONGORONGO:hover #ORONGORONGOSELECTED {
-  display: block;
-}
-
-#PUKEATUASELECTED {
-  display: none;
-}
-
-#PUKEATUA:hover #PUKEATUASELECTED {
-  display: block;
-}
-
-#REMUTAKASELECTED {
-  display: none;
-}
-
-#REMUTAKA:hover #REMUTAKASELECTED {
-  display: block;
-}
-
-#PUKEARIKISELECTED {
-  display: none;
-}
-
-#PUKEARIKI:hover #PUKEARIKISELECTED {
-  display: block;
-}
+#TARARUA:hover       #TARARUANOTSELECTED {display: none;}
+#MATAIRANGI:hover    #TARARUANOTSELECTED {display: none;}
+#TARARUA:hover       #TARARUANOTSELECTED {display: none;}
+#TARARUA:hover       #TARARUANOTSELECTED {display: none;}
+#TARARUA:hover       #TARARUANOTSELECTED {display: none;}
+#TARARUA:hover       #TARARUANOTSELECTED {display: none;}
 
 .stuffgoeshere {
   height: 100%;
