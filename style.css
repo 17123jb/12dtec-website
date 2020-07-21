@@ -3,7 +3,7 @@ html, body{
 }
 
 .title {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/background.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('images/background.jpg');
   height: 35%;
   background-attachment: fixed;
   background-position: center;
@@ -30,33 +30,63 @@ html, body{
 }
 
 .navbar img {
-  height: 50%;
+  height: 16vh;
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
 }
 
-#TARARUASELECTED     {display: none;}
-#MATAIRANGISELECTED  {display: none;}
-#ORONGORONGOSELECTED {display: none;}
-#PUKEATUASELECTED    {display: none;}
-#REMUTAKASELECTED    {display: none;}
-#PUKEARIKISELECTED   {display: none;}
+#TARARUASELECTED                             {display: none;}
+#MATAIRANGISELECTED                          {display: none;}
+#ORONGORONGOSELECTED                         {display: none;}
+#PUKEATUASELECTED                            {display: none;}
+#REMUTAKASELECTED                            {display: none;}
+#PUKEARIKISELECTED                           {display: none;}
 
-#TARARUA:hover       #TARARUASELECTED     {display: block;}
-#MATAIRANGI:hover    #MATAIRANGISELECTED  {display: block;}
-#ORONGORONGO:hover   #ORONGORONGOSELECTED {display: block;}
-#PUKEATUA:hover      #PUKEATUASELECTED    {display: block;}
-#REMUTAKA:hover      #REMUTAKASELECTED    {display: block;}
-#PUKEARIKI:hover     #PUKEARIKISELECTED   {display: block;}
+#TARARUA:hover       #TARARUASELECTED        {display: block;}
+#MATAIRANGI:hover    #MATAIRANGISELECTED     {display: block;}
+#ORONGORONGO:hover   #ORONGORONGOSELECTED    {display: block;}
+#PUKEATUA:hover      #PUKEATUASELECTED       {display: block;}
+#REMUTAKA:hover      #REMUTAKASELECTED       {display: block;}
+#PUKEARIKI:hover     #PUKEARIKISELECTED      {display: block;}
 
-#TARARUA:hover       #TARARUANOTSELECTED {display: none;}
-#MATAIRANGI:hover    #TARARUANOTSELECTED {display: none;}
-#TARARUA:hover       #TARARUANOTSELECTED {display: none;}
-#TARARUA:hover       #TARARUANOTSELECTED {display: none;}
-#TARARUA:hover       #TARARUANOTSELECTED {display: none;}
-#TARARUA:hover       #TARARUANOTSELECTED {display: none;}
+#TARARUA:hover       #TARARUANOTSELECTED     {display: none;}
+#MATAIRANGI:hover    #MATAIRANGINOTSELECTED  {display: none;}
+#ORONGORONGO:hover   #ORONGORONGONOTSELECTED {display: none;}
+#PUKEATUA:hover      #PUKEATUANOTSELECTED    {display: none;}
+#REMUTAKA:hover      #REMUTAKANOTSELECTED    {display: none;}
+#PUKEARIKI:hover     #PUKEARIKINOTSELECTED   {display: none;}
+
+#TARARUA:hover {
+  background: linear-gradient(135deg, #009ce1, #212121);
+  box-shadow: 0px 0px 12px 2px #000;
+}
+
+#MATAIRANGI:hover {
+  background: linear-gradient(135deg, #ffe300, #212121);
+  box-shadow: 0px 0px 12px 2px #000;
+}
+
+#ORONGORONGO:hover {
+  background: linear-gradient(135deg, #ff0071, #212121);
+  box-shadow: 0px 0px 12px 2px #000;
+}
+
+#PUKEATUA:hover {
+  background: linear-gradient(135deg, #ff7200, #212121);
+  box-shadow: 0px 0px 12px 2px #000;
+}
+
+#REMUTAKA:hover {
+  background: linear-gradient(135deg, #00773a, #212121);
+  box-shadow: 0px 0px 12px 2px #000;
+}
+
+#PUKEARIKI:hover {
+  background: linear-gradient(135deg, #760296, #212121);
+  box-shadow: 0px 0px 12px 2px #000;
+}
 
 .stuffgoeshere {
   height: 100%;
