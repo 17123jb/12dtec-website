@@ -59,35 +59,51 @@ html, body{
 #PUKEARIKI:hover     #PUKEARIKINOTSELECTED   {display: none;}
 
 #TARARUA:hover {
-  background: linear-gradient(135deg, #009ce1, #212121);
-  box-shadow: 0px 0px 12px 2px #000;
+  background: linear-gradient(135deg, #009ce1, #004461);
+  box-shadow: 0px 0px 8px #000;
 }
 
 #MATAIRANGI:hover {
-  background: linear-gradient(135deg, #ffe300, #212121);
-  box-shadow: 0px 0px 12px 2px #000;
+  background: linear-gradient(135deg, #ffe300, #807100);
+  box-shadow: 0px 0px 8px #000;
 }
 
 #ORONGORONGO:hover {
-  background: linear-gradient(135deg, #ff0071, #212121);
-  box-shadow: 0px 0px 12px 2px #000;
+  background: linear-gradient(135deg, #ff0071, #800039);
+  box-shadow: 0px 0px 8px #000;
 }
 
 #PUKEATUA:hover {
-  background: linear-gradient(135deg, #ff7200, #212121);
-  box-shadow: 0px 0px 12px 2px #000;
+  background: linear-gradient(135deg, #ff7200, #803900);
+  box-shadow: 0px 0px 8px #000;
 }
 
 #REMUTAKA:hover {
-  background: linear-gradient(135deg, #00773a, #212121);
-  box-shadow: 0px 0px 12px 2px #000;
+  background: linear-gradient(135deg, #00773a, #00381B);
+  box-shadow: 0px 0px 8px #000;
 }
 
 #PUKEARIKI:hover {
-  background: linear-gradient(135deg, #760296, #212121);
-  box-shadow: 0px 0px 12px 2px #000;
+  background: linear-gradient(135deg, #760296, #440157);
+  box-shadow: 0px 0px 8px #000;
 }
 
 .stuffgoeshere {
   height: 100%;
+}
+
+.footer {
+  background: linear-gradient(135deg, #01e0a5, #212121);
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer h1 {
+  font-size: 6vh;
+  font-weight: 500;
+}
+
+.footer p {
+  font-size: 3vw;
+  font-weight: 500;
 }
