@@ -1,7 +1,9 @@
 html, body {height: 100%;}
 
 .title {
-  background-image:      linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('images/background.jpg');
+  background-image:      linear-gradient(rgba(0, 0, 0, 0.3),
+                         rgba(0, 0, 0, 0.3)),
+                         url('images/background.jpg');
   height:                35%;
   background-attachment: fixed;
   background-position:   center;
@@ -34,100 +36,103 @@ html, body {height: 100%;}
   padding:      20px;
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 60px;
-}
-
 /* Hide light icon */
-#TARARUASELECTED                             {display: none;}
-#MATAIRANGISELECTED                          {display: none;}
-#ORONGORONGOSELECTED                         {display: none;}
-#PUKEATUASELECTED                            {display: none;}
-#REMUTAKASELECTED                            {display: none;}
-#PUKEARIKISELECTED                           {display: none;}
+#TARARUASELECTED                           {display: none;}
+#MATAIRANGISELECTED                        {display: none;}
+#ORONGORONGOSELECTED                       {display: none;}
+#PUKEATUASELECTED                          {display: none;}
+#REMUTAKASELECTED                          {display: none;}
+#PUKEARIKISELECTED                         {display: none;}
 
 /* Hide dark icon on hover */
-#TARARUA:hover       #TARARUANOTSELECTED     {display: none;}
-#MATAIRANGI:hover    #MATAIRANGINOTSELECTED  {display: none;}
-#ORONGORONGO:hover   #ORONGORONGONOTSELECTED {display: none;}
-#PUKEATUA:hover      #PUKEATUANOTSELECTED    {display: none;}
-#REMUTAKA:hover      #REMUTAKANOTSELECTED    {display: none;}
-#PUKEARIKI:hover     #PUKEARIKINOTSELECTED   {display: none;}
+#TARARUA:hover     #TARARUANOTSELECTED     {display: none;}
+#MATAIRANGI:hover  #MATAIRANGINOTSELECTED  {display: none;}
+#ORONGORONGO:hover #ORONGORONGONOTSELECTED {display: none;}
+#PUKEATUA:hover    #PUKEATUANOTSELECTED    {display: none;}
+#REMUTAKA:hover    #REMUTAKANOTSELECTED    {display: none;}
+#PUKEARIKI:hover   #PUKEARIKINOTSELECTED   {display: none;}
 
 /* Show light icon on hover */
-#TARARUA:hover       #TARARUASELECTED        {display: block;}
-#MATAIRANGI:hover    #MATAIRANGISELECTED     {display: block;}
-#ORONGORONGO:hover   #ORONGORONGOSELECTED    {display: block;}
-#PUKEATUA:hover      #PUKEATUASELECTED       {display: block;}
-#REMUTAKA:hover      #REMUTAKASELECTED       {display: block;}
-#PUKEARIKI:hover     #PUKEARIKISELECTED      {display: block;}
+#TARARUA:hover     #TARARUASELECTED        {display: block;}
+#MATAIRANGI:hover  #MATAIRANGISELECTED     {display: block;}
+#ORONGORONGO:hover #ORONGORONGOSELECTED    {display: block;}
+#PUKEATUA:hover    #PUKEATUASELECTED       {display: block;}
+#REMUTAKA:hover    #REMUTAKASELECTED       {display: block;}
+#PUKEARIKI:hover   #PUKEARIKISELECTED      {display: block;}
 
 /* Gradient background on hover */
 #TARARUA:hover {
   background: linear-gradient(135deg, #009ce1, #004461);
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);}
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
 #MATAIRANGI:hover {
   background: linear-gradient(135deg, #ffe300, #BFA900);
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);}
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
 #ORONGORONGO:hover {
   background: linear-gradient(135deg, #ff0071, #800039);
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);}
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
 #PUKEATUA:hover {
   background: linear-gradient(135deg, #ff7200, #803900);
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);}
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
 #REMUTAKA:hover {
   background: linear-gradient(135deg, #00773a, #00381B);
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);}
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
 #PUKEARIKI:hover {
   background: linear-gradient(135deg, #760296, #440157);
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);}
-
-.content {
-  margin-top: 20vh;
-}
-
-.homeimg {
-  width: 100%;
-  border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-  vertical-align: middle;
 }
+
+.whitespace {padding-top: 48px;}
+.content    {margin-top:  128px;}
 
 .hometext h1{
   font-family: 'Roboto', sans-serif;
-  color: #424242;
-  font-size: 42px;
+  color:       #424242;
+  font-size:   42px;
 }
 
 .hometext p{
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 24px;
-  color: #616161;
+  font-size:   24px;
+  color:       #616161;
 }
 
-.stuffgoeshere {
-  height: 100%;
+.homeimg {
+  width:         100%;
+  margin-top:    48px;
+  border-radius: 10px;
+  box-shadow:    0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.splitter {
+  width:        66%;
+  margin:       auto;
+  margin-top:   192px;
+  border-color: #616161;
 }
 
 .footer {
+  box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.5);
+  margin-top:  192px;
   background:  linear-gradient(135deg, #01e0a5, #212121);
   color:       white;
   font-family: 'Roboto', sans-serif;
 }
 
 .footer h1 {
-  font-size:   6vh;
+  padding-top: 48px;
+  font-family: 'Roboto', sans-serif;
+  font-size:   42px;
   font-weight: 500;
 }
 
 .footer p {
-  font-size:   2vw;
-  font-weight: 500;
+  font-size:      18px;
+  font-weight:    300;
+  padding-bottom: 48px;
 }
