@@ -116,6 +116,11 @@ html, body {height: 100%;}
   border-color: #616161;
 }
 
+#HOMEEMBED,     #TARARUAEMBED,  #MATAIRANGIEMBED, #ORONGORONGOEMBED,
+#PUKEATUAEMBED, #REMUTAKAEMBED, #PUKEARIKIEMBED   {display: none;}
+
+.active {display: block;}
+
 .footer {
   box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.5);
   margin-top:  192px;
@@ -132,7 +137,7 @@ html, body {height: 100%;}
 }
 
 .footer p {
-  font-size:      18px;
+  font-size:      24px;
   font-weight:    300;
   padding-bottom: 48px;
 }
