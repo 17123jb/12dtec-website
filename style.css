@@ -90,7 +90,7 @@ html, body {height: 100%;}
 
 /******************************************************************************/
 
-.content {margin-top: 82px;}
+.content {margin-top: 84px;}
 
 .hometext h1{
   font-family: 'Roboto', sans-serif;
@@ -137,14 +137,47 @@ html, body {height: 100%;}
 
 /******************************************************************************/
 
-html[data-useragent*='Android'] img {
-  box-shadow:    0px 0px 0px rgba(0, 0, 0, 0.5);
-  border-radius: 0px;
-  margin-top:    0px;
+html[data-useragent*='Android'] .title h1 {
+  font-size:  16vw  !important;
+  padding:    0px   !important;
+  text-align: right !important;
 }
 
-html[data-platform='iPhone'] img {
+html[data-useragent*='Android'] .navbar img {
+  width:  28vw;
+  height: auto !important;
+}
+
+html[data-useragent*='Android'] .content {
+  text-align: center;
+  margin-top: 12px;
+}
+
+html[data-useragent*='Android'] .hometext {
+  padding-left:  12px;
+  padding-right: 12px;
+}
+
+html[data-useragent*='Android'] .homeimg {
   box-shadow:    0px 0px 0px rgba(0, 0, 0, 0.5);
   border-radius: 0px;
   margin-top:    0px;
+  padding:       0px;
+}
+
+html[data-platform='iPhone'] .navbar img {
+  width:  28vw;
+  height: auto !important;
+}
+
+html[data-platform='iPhone'] .content {
+  text-align: center;
+  margin-top: 12px;
+}
+
+html[data-platform='iPhone'] .homeimg {
+  box-shadow:    0px 0px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 0px;
+  margin-top:    0px;
+  padding:       0px;
 }
