@@ -22,6 +22,8 @@ html, body {height: 100%;}
   text-shadow:   2px 2px 12px rgba(0,0,0,0.5);
 }
 
+/******************************************************************************/
+
 .navbar {
   width:    100%;
   position: relative;
@@ -29,7 +31,7 @@ html, body {height: 100%;}
 }
 
 .navbar img {
-  height:       20vh;
+  height:       128px;
   display:      block;
   margin-left:  auto;
   margin-right: auto;
@@ -86,7 +88,9 @@ html, body {height: 100%;}
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
-.content    {margin-top:  128px;}
+/******************************************************************************/
+
+.content {margin-top: 82px;}
 
 .hometext h1{
   font-family: 'Roboto', sans-serif;
@@ -108,17 +112,7 @@ html, body {height: 100%;}
   box-shadow:    0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
-.splitter {
-  width:        66%;
-  margin:       auto;
-  margin-top:   192px;
-  border-color: #616161;
-}
-
-#HOMEEMBED,     #TARARUAEMBED,  #MATAIRANGIEMBED, #ORONGORONGOEMBED,
-#PUKEATUAEMBED, #REMUTAKAEMBED, #PUKEARIKIEMBED   {display: none;}
-
-.active {display: block;}
+/******************************************************************************/
 
 .footer {
   box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.5);
@@ -141,7 +135,15 @@ html, body {height: 100%;}
   padding-bottom: 48px;
 }
 
+/******************************************************************************/
+
 html[data-useragent*='Android'] img {
+  box-shadow:    0px 0px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 0px;
+  margin-top:    0px;
+}
+
+html[data-platform='iPhone'] img {
   box-shadow:    0px 0px 0px rgba(0, 0, 0, 0.5);
   border-radius: 0px;
   margin-top:    0px;
