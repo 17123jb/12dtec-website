@@ -6,7 +6,8 @@
     <meta name="keywords"    content="HTML, CSS, JavaScript">
     <meta name="author"      content="John Doe">
     <meta name="viewport"    content="width=device-width, initial-scale=1.0">
-    <script src="ua.js"></script>
+    <script       src="ua.js"></script>
+    <script defer src="dispDrop.js"></script>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&family=Sen:wght@700&display=swap">
     <link rel="stylesheet" href="style.css">
@@ -20,72 +21,86 @@
 <!----------------------------------------------------------------------------->
     <div class="navbar w3-row">
       <div id="TARARUA" class="w3-col s4 m2 l2 naver">
-        <a href="tararua.html">
-          <img id ="TARARUANOTSELECTED"
-               src="images/tararua-logo.png"
-               alt="tararua">
-          <img id ="TARARUASELECTED"
-               src="images/tararua-logo-selected.png"
-               alt="tararua-selected">
-        </a>
+        <button onclick="tarDispDrop()">
+          <img  id ="TARARUANOTSELECTED"
+                src="images/tararua-logo.png"
+                alt="tararua">
+          <img  id ="TARARUASELECTED"
+                src="images/tararua-logo-selected.png"
+                alt="tararua-selected">
+        </button>
       </div>
       <div id="MATAIRANGI" class="w3-col s4 m2 l2 naver">
-        <a href="matairangi.html">
+        <button onclick="matDispDrop()">
           <img id ="MATAIRANGINOTSELECTED"
-               src="images/matairangi-logo.png"
-               alt="matairangi">
-          <img id ="MATAIRANGISELECTED"
-               src="images/matairangi-logo-selected.png"
-               alt="matairangi-selected">
-        </a>
+                src="images/matairangi-logo.png"
+                alt="matairangi">
+          <img  id ="MATAIRANGISELECTED"
+                src="images/matairangi-logo-selected.png"
+                alt="matairangi-selected">
+        </button>
       </div>
       <div id="ORONGORONGO" class="w3-col s4 m2 l2 naver">
-        <a href="orongorongo.html">
-          <img id ="ORONGORONGONOTSELECTED"
-               src="images/orongorongo-logo.png"
-               alt="orongorongo">
-          <img id ="ORONGORONGOSELECTED"
-               src="images/orongorongo-logo-selected.png"
-               alt="orongorongo-selected">
-        </a>
+        <button onclick="oroDispDrop()">
+          <img  id ="ORONGORONGONOTSELECTED"
+                src="images/orongorongo-logo.png"
+                alt="orongorongo">
+          <img  id ="ORONGORONGOSELECTED"
+                src="images/orongorongo-logo-selected.png"
+                alt="orongorongo-selected">
+        </button>
       </div>
       <div id="PUKEATUA" class="w3-col s4 m2 l2 naver">
-        <a href="pukeatua.html">
-          <img id ="PUKEATUANOTSELECTED"
-               src="images/pukeatua-logo.png"
-               alt="pukeatua">
-          <img id ="PUKEATUASELECTED"
-               src="images/pukeatua-logo-selected.png"
-               alt="pukeatua-selected">
-        </a>
+        <button onclick="pukDispDrop()">
+          <img  id ="PUKEATUANOTSELECTED"
+                src="images/pukeatua-logo.png"
+                alt="pukeatua">
+          <img  id ="PUKEATUASELECTED"
+                src="images/pukeatua-logo-selected.png"
+                alt="pukeatua-selected">
+        </button>
       </div>
       <div id="REMUTAKA" class="w3-col s4 m2 l2 naver">
-        <a href="remutaka.html">
-          <img id ="REMUTAKANOTSELECTED"
-               src="images/remutaka-logo.png"
-               alt="remutaka">
-          <img id ="REMUTAKASELECTED"
-               src="images/remutaka-logo-selected.png"
-               alt="remutaka-selected">
-        </a>
+        <button onclick="remDispDrop()">
+          <img  id ="REMUTAKANOTSELECTED"
+                src="images/remutaka-logo.png"
+                alt="remutaka">
+          <img  id ="REMUTAKASELECTED"
+                src="images/remutaka-logo-selected.png"
+                alt="remutaka-selected">
+        </button>
       </div>
       <div id="PUKEARIKI" class="w3-col s4 m2 l2 naver">
-        <a href="pukeariki.html">
-          <img id ="PUKEARIKINOTSELECTED"
-               src="images/pukeariki-logo.png"
-               alt="pukeariki">
-          <img id ="PUKEARIKISELECTED"
-               src="images/pukeariki-logo-selected.png"
-               alt="pukeariki-selected">
-        </a>
+        <button onclick="puxDispDrop()">
+          <img  id ="PUKEARIKINOTSELECTED"
+                src="images/pukeariki-logo.png"
+                alt="pukeariki">
+          <img  id ="PUKEARIKISELECTED"
+                src="images/pukeariki-logo-selected.png"
+                alt="pukeariki-selected">
+        </button>
       </div>
     </div>
-    <div id="TARDROP" class="drop"></div>
+    <div id="TARDROP" class="drop">
+    	<div class="w3-row">
+    		<div class="w3-col s1 m1 l1"><br></div>
+    		<div class="w3-col s7 m8 l8">
+	    		<h1>Tararua</h1>
+	    		<br>
+	    		<p>We stand proud beneath the white of the snow capped mountain.</p>
+	    	</div>
+	    	<div class="w3-col s3 m2 l2">
+					<a href="tararua.html">Learn More</a>
+	    	</div>
+	    	<div class="w3-col s1 m1 l1"><br></div>
+	    </div>
+	</div>
+    </div>
     <div id="MATDROP" class="drop"></div>
     <div id="ORODROP" class="drop"></div>
-    <div id="PUTDROP" class="drop"></div>
+    <div id="PUKDROP" class="drop"></div>
     <div id="REMDROP" class="drop"></div>
-    <div id="PURDROP" class="drop"></div>
+    <div id="PUXDROP" class="drop"></div>
 <!----------------------------------------------------------------------------->
     <div class="content w3-row"> <!-- Row 1 -->
       <div class="w3-col s0 m1 l2"> <!-- Left side whitespace -->
@@ -154,3 +169,4 @@
     </div>
   </body>
 </html>
+
