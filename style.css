@@ -11,6 +11,29 @@ html, body {height: 100%;}
   background-size:       cover;
 }
 
+.title a {
+	position: absolute;
+	text-align: left;
+	padding:          20px;
+	margin-top: 1%;
+	margin-left: 2%;
+	background-color: #FBC02D;
+	font-family:      'Roboto', sans-serif;
+	font-weight:      500;
+	font-size:	      18px;
+	text-align:       center;
+	border-radius:    5px;
+	transition:       0.3s;
+	color:            black;
+	box-shadow:       0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.title a:hover {
+	background-color: grey;
+  border-radius:    10px;
+	box-shadow:       0px 0px 15px rgba(0, 0, 0, 0.75);
+}
+
 .title h1 {
   text-align:    right;
   color:         white;
@@ -76,36 +99,47 @@ html, body {height: 100%;}
 /* Gradient background on hover */
 #TARARUA:hover {
   background:     linear-gradient(135deg, #009ce1, #004461);
-  box-shadow:     0px 0px 10px rgba(0, 0, 0, 0.5);
+  box-shadow:     0px 0px 15px rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
 }
+
 #MATAIRANGI:hover {
   background: linear-gradient(135deg, #ffe300, #BFA900);
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
 }
+
 #ORONGORONGO:hover {
   background: linear-gradient(135deg, #ff0071, #800039);
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
 }
+
 #PUKEATUA:hover {
   background: linear-gradient(135deg, #ff7200, #803900);
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
 }
+
 #REMUTAKA:hover {
   background: linear-gradient(135deg, #00773a, #00381B);
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
 }
+
 #PUKEARIKI:hover {
   background: linear-gradient(135deg, #760296, #440157);
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
 }
 
 /******************************************************************************/
 
 .drop {
-  height:        14vw;
-  display:       none;
-  box-shadow:    0px 0px 10px rgba(0, 0, 0, 0.5);
-  transition:    0.3s;
+  height:     14vw;
+  display:    none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
 }
 
 .drop h1 {
@@ -174,7 +208,6 @@ html, body {height: 100%;}
 
 .homeimg {
   width:         100%;
-  margin-top:    6vh;
   border-radius: 10px;
   box-shadow:    0px 0px 10px rgba(0, 0, 0, 0.5);
 }

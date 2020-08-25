@@ -1,57 +1,233 @@
+<!DOCTYPE html>
+<html lang='en'>
   <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords"    content="HTML, CSS, JavaScript">
+    <meta name="author"      content="John Doe">
+    <meta name="viewport"    content="width=device-width, initial-scale=1.0">
+    <script       src="ua.js"></script>
+    <script defer src="dispDrop.js"></script>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&family=Sen:wght@700&display=swap">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon"       href="images/favicon.png">
+    <title>School Houses - HVHS</title>
   </head>
-  <body height="100%">
-    <div class="content w3-row">
-      <div class="w3-col s1 m1 l2">
+  <body>
+    <div class="title">
+    <a href="index.html">Home</a>
+      <h1>Pukeariki House</h1>
+    </div>
+<!-- ======================================================================= -->
+    <div class="navbar w3-row">
+      <div id="TARARUA" class="w3-col s4 m2 l2 naver">
+        <button onclick="tarDispDrop()">
+          <img  id ="TARARUANOTSELECTED"
+                src="images/tararua-logo.png"
+                alt="tararua">
+          <img  id ="TARARUASELECTED"
+                src="images/tararua-logo-selected.png"
+                alt="tararua-selected">
+        </button>
+      </div>
+      <div id="MATAIRANGI" class="w3-col s4 m2 l2 naver">
+        <button onclick="matDispDrop()">
+          <img  id ="MATAIRANGINOTSELECTED"
+                src="images/matairangi-logo.png"
+                alt="matairangi">
+          <img  id ="MATAIRANGISELECTED"
+                src="images/matairangi-logo-selected.png"
+                alt="matairangi-selected">
+        </button>
+      </div>
+      <div id="ORONGORONGO" class="w3-col s4 m2 l2 naver">
+        <button onclick="oroDispDrop()">
+          <img  id ="ORONGORONGONOTSELECTED"
+                src="images/orongorongo-logo.png"
+                alt="orongorongo">
+          <img  id ="ORONGORONGOSELECTED"
+                src="images/orongorongo-logo-selected.png"
+                alt="orongorongo-selected">
+        </button>
+      </div>
+      <div id="PUKEATUA" class="w3-col s4 m2 l2 naver">
+        <button onclick="pukDispDrop()">
+          <img  id ="PUKEATUANOTSELECTED"
+                src="images/pukeatua-logo.png"
+                alt="pukeatua">
+          <img  id ="PUKEATUASELECTED"
+                src="images/pukeatua-logo-selected.png"
+                alt="pukeatua-selected">
+        </button>
+      </div>
+      <div id="REMUTAKA" class="w3-col s4 m2 l2 naver">
+        <button onclick="remDispDrop()">
+          <img  id ="REMUTAKANOTSELECTED"
+                src="images/remutaka-logo.png"
+                alt="remutaka">
+          <img  id ="REMUTAKASELECTED"
+                src="images/remutaka-logo-selected.png"
+                alt="remutaka-selected">
+        </button>
+      </div>
+      <div id="PUKEARIKI" class="w3-col s4 m2 l2 naver">
+        <button onclick="puxDispDrop()">
+          <img  id ="PUKEARIKINOTSELECTED"
+                src="images/pukeariki-logo.png"
+                alt="pukeariki">
+          <img  id ="PUKEARIKISELECTED"
+                src="images/pukeariki-logo-selected.png"
+                alt="pukeariki-selected">
+        </button>
+      </div>
+    </div>
+<!-- ======================================================================= -->
+    <div id="TARDROP" class="drop"> <!-- Column 1 -->
+    	<div class="w3-row">
+    		<div class="w3-col s1 m1 l1"><br></div>
+    		<div class="w3-col s7 m8 l8">
+	    		<h1>Tararua</h1>
+	    		<p>We stand proud beneath the white of the snow capped mountain.</p>
+	    	</div>
+	    	<div class="w3-col s3 m2 l2">
+					<a href="tararua.html">Learn More</a>
+	    	</div>
+	    	<div class="w3-col s1 m1 l1"><br></div>
+	    </div>
+		</div>
+    <div id="MATDROP" class="drop"> <!-- Column 2 -->
+			<div class="w3-row">
+    		<div class="w3-col s1 m1 l1"><br></div>
+    		<div class="w3-col s7 m8 l8">
+	    		<h1 class="matdrop">Matairangi</h1>
+	    		<p  class="matdrop">We wear the joyous yellow of the kowhai.</p>
+	    	</div>
+	    	<div class="w3-col s3 m2 l2">
+					<a href="matairangi.html">Learn More</a>
+	    	</div>
+	    	<div class="w3-col s1 m1 l1"><br></div>
+	    </div>
+    </div>
+    <div id="ORODROP" class="drop"> <!-- Column 3 -->
+    	<div class="w3-row">
+    		<div class="w3-col s1 m1 l1"><br></div>
+    		<div class="w3-col s7 m8 l8">
+	    		<h1>Orongorongo</h1>
+	    		<p>
+            We meet beneath the pink of the evening sky, bathing the pohutukawa
+            lined Orongorongo valley in its gentle light.
+          </p>
+	    	</div>
+	    	<div class="w3-col s3 m2 l2">
+					<a href="orongorongo.html">Learn More</a>
+	    	</div>
+	    	<div class="w3-col s1 m1 l1"><br></div>
+	    </div>
+	  </div>
+    <div id="PUKDROP" class="drop"> <!-- Column 4 -->
+    	<div class="w3-row">
+    		<div class="w3-col s1 m1 l1"><br></div> <!-- Left side whitespace -->
+    		<div class="w3-col s7 m8 l8">
+	    		<h1>Pukeatua</h1>
+	    		<p>We proudly wear the orange of the signal fire.</p>
+	    	</div>
+	    	<div class="w3-col s3 m2 l2">
+					<a href="pukeatua.html">Learn More</a>
+	    	</div>
+	    	<div class="w3-col s1 m1 l1"><br></div> <!-- Right side whitespace -->
+	    </div>
+    </div>
+    <div id="REMDROP" class="drop"> <!-- Column 5 -->
+    	<div class="w3-row">
+    		<div class="w3-col s1 m1 l1"><br></div> <!-- Left side whitespace -->
+    		<div class="w3-col s7 m8 l8">
+	    		<h1>Remutaka</h1>
+	    		<p>
+            We gather together beneath the cool shade of forest green and the
+            emblem of a chief’s feather.
+          </p>
+	    	</div>
+	    	<div class="w3-col s3 m2 l2">
+					<a href="remutaka.html">Learn More</a>
+	    	</div>
+	    	<div class="w3-col s1 m1 l1"><br></div> <!-- Right side whitespace -->
+	    </div>
+    </div>
+    <div id="PUXDROP" class="drop"> <!-- Column 6 -->
+    	<div class="w3-row">
+    		<div class="w3-col s1 m1 l1"><br></div> <!-- Left side whitespace -->
+    		<div class="w3-col s7 m8 l8">
+	    		<h1>Pukeariki</h1>
+	    		<p>
+            We are proud to assemble beneath the colour purple and the symbol of
+            the nikau.
+          </p>
+	    	</div>
+	    	<div class="w3-col s3 m2 l2">
+					<a href="pukeariki.html">Learn More</a>
+	    	</div>
+	    	<div class="w3-col s1 m1 l1"><br></div> <!-- Right side whitespace -->
+	    </div>
+    </div>
+<!-- ======================================================================= -->
+    <div class="content w3-row"> <!-- Row 1 -->
+      <div class="w3-col s0 m1 l2"> <!-- Left side whitespace -->
         <br>
       </div>
-      <div class="w3-col s12 m12 l3 hometext">
-        <h1>Overview</h1>
+      <div class="w3-col s12 m4 l3 hometext"> <!-- Row 1 text -->
+        <h1>Growth through challenge</h1>
         <br>
         <p>
-          There are six Houses at HVHS, each named after a prominent
-          Wellington maunga or mountain peak or landmark. House groups are
-          made up of students from Year 9 to 13. Each house has 2 student
-          leaders.
+          We are proud to assemble beneath the colour purple and the symbol of 
+          the nikau. Our maunga is Pukeariki, the range that defines the western 
+          margin of the Hutt Valley.
         </p>
       </div>
-      <div class="w3-col s0 m0 l1">
+      <div class="w3-col s0 m1 l1"> <!-- Center whitespace -->
         <br>
       </div>
-      <div class="w3-col s12 m12 l4">
-        <img src="images/home-1.jpg" class="homeimg" alt="sprint-race">
+      <div class="w3-col s12 m5 l4"> <!-- Row 1 image -->
+        <img src="images/pukeariki-1.jpg" class="homeimg" alt="sprint-race">
       </div>
-      <div class="w3-col s1 m1 l2">
+      <div class="w3-col s0 m1 l2"> <!-- Right side whitespace -->
         <br>
       </div>
     </div>
-    <!-- <hr class="splitter"> -->
-    <div class="content w3-row">
-      <div class="w3-col s1 m1 l2">
+    <div class="content w3-row">  <!-- Row 2 -->
+      <div class="w3-col s0 m1 l2"> <!-- Left side whitespace -->
         <br>
       </div>
-      <div class="w3-col s12 m12 l4">
-        <img src="images/home-2.jpg" class="homeimg" alt="sprint-race">
+      <div class="w3-col s12 m5 l4"> <!-- Row 2 image -->
+        <img src="images/pukeariki-2.jpg" class="homeimg" alt="house-trophy">
       </div>
-      <div class="w3-col s0 m0 l1">
+      <div class="w3-col s0 m1 l1"> <!-- Center whitespace -->
         <br>
       </div>
-      <div class="w3-col s12 m12 l3 hometext">
-        <!-- <h1>Pengerrs</h1>
-        <br> -->
+      <div class="w3-col s12 m4 l3 hometext"> <!-- Row 2 text -->
         <p>
-          Houses compete against each other in a range of activities throughout
-          the year; sports, cultural, creative and service activities. Students
-          can also gain House points through their Attitude to Learning grades
-          each term. Students compete for this beautiful trophy. The waka was
-          designed and carved by Terry Deverell, a former staff member.
+          The nikau starts as a small flax-like palm and grows over time into 
+          beautiful tree. This is our kaupapa, celebrating both who we are, and 
+          who we will become.		 			
         </p>
       </div>
-      <div class="w3-col s1 m1 l2">
+      <div class="w3-col s0 m1 l2"> <!-- Right side whitespace -->
         <br>
+      </div>
+    </div>
+<!-- ======================================================================= -->
+    <div class="footer w3-row">
+      <div class="w3-col s1 m1 l1">
+        <br>
+      </div>
+      <div class="w3-col s10 m10 l10">
+        <h1>Useful Information</h1>
+        <p>
+          • House leaders (2020): Paige Schroder & Matiu Inwood
+          <br>
+          • Meeting venue: Blue Seats beside the pavilion‍
+        </p>
       </div>
     </div>
   </body>
+</html>
