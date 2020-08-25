@@ -258,6 +258,17 @@ html[data-useragent*='Android'] .navbar img {
   height: auto !important;
 }
 
+html[data-platform='iPhone'] .navbar img {
+  width:  28vw;
+  height: auto !important;
+ }
+
+html[data-useragent*='Android'] .title h1 {
+  font-size:  16vw  !important;
+  padding:    0px   !important;
+  text-align: right !important;
+}
+
 html[data-platform='iPhone'] .title h1 {
   font-size:  16vw  !important;
   padding:    0px   !important;
@@ -266,7 +277,13 @@ html[data-platform='iPhone'] .title h1 {
 
 /******************************************************************************/
 
+html[data-useragent*='Android'] .drop {
+	height: 37vh;
+}
 
+html[data-platform='iPhone'] .drop {
+	height: 37vh;
+}
 
 /******************************************************************************/
 
