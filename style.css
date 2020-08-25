@@ -75,11 +75,11 @@ html, body {height: 100%;}
 
 /* Gradient background on hover */
 #TARARUA:hover {
-  background: linear-gradient(135deg, #009ce1, #004461);
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  background:     linear-gradient(135deg, #009ce1, #004461);
+  box-shadow:     0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 #MATAIRANGI:hover {
-  background: linear-gradient(135deg, #ffe300, #807100);
+  background: linear-gradient(135deg, #ffe300, #BFA900);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 #ORONGORONGO:hover {
@@ -102,10 +102,10 @@ html, body {height: 100%;}
 /******************************************************************************/
 
 .drop {
-  height:      20vh;
-  display:     none;
-  box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.5);
-  transition:  0.3s;
+  height:        14vw;
+  display:       none;
+  box-shadow:    0px 0px 10px rgba(0, 0, 0, 0.5);
+  transition:    0.3s;
 }
 
 .drop h1 {
@@ -117,11 +117,11 @@ html, body {height: 100%;}
 }
 
 .drop p {
-	font-weight:    300;
-	font-size:      22px;
-	color: 			    white;
-  font-family:    'Roboto', sans-serif;
-  padding-right:  50px;
+	font-weight:   300;
+	font-size:     22px;
+	color: 			   white;
+  font-family:   'Roboto', sans-serif;
+  padding-right: 50px;
 }
 
 .drop a {
@@ -137,13 +137,14 @@ html, body {height: 100%;}
 	border-radius:    5px;
 	transition:       0.3s;
 	color:            black;
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	box-shadow:       0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 .drop a:hover {
 	background-color: grey;
-	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.75);
-}	
+  border-radius:    10px;
+	box-shadow:       0px 0px 15px rgba(0, 0, 0, 0.75);
+}
 
 #TARDROP {background: linear-gradient(135deg, #009ce1, #004461);}
 #MATDROP {background: linear-gradient(135deg, #ffe300, #BFA900);}
@@ -267,4 +268,3 @@ html[data-platform='iPhone'] .homeimg {
   margin-top:    0px;
   padding:       0px;
 }
-
